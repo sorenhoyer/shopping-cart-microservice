@@ -60,6 +60,7 @@ namespace backend.Controllers
         [HttpGet("events")]
         public ActionResult<List<string>> GetEvents(long from, long to)
         {
+            Response.Headers.Add("cache-control", "private, max-age:3600");
             return Ok(eventStore.getEvents(from, to));
         }
     }
