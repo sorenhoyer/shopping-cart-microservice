@@ -14,8 +14,8 @@ namespace backend.Controllers
         public static Dictionary<string, List<Product>> inventory = new Dictionary<string, List<Product>> {
             {
                 "1", new List<Product> {
-                    new Product("1", 100),
-                    new Product("2", 200)
+                    new Product("Product 1", 100),
+                    new Product("Product 2", 200)
                 }
             }
         };
@@ -35,7 +35,7 @@ namespace backend.Controllers
         {
             inventory[userId].Add(product);
             Console.WriteLine("Product with id: " + product.Id + " and price: " + product.Price + " saved");
-            eventStore.Add("AddProduct" + product.Id);
+            eventStore.Add(new Event("AddProduct" + product.Id));
             Ok(product);
         }
 
@@ -46,11 +46,11 @@ namespace backend.Controllers
             for (int i = 0; i < inventory[userId].Count; i++)
             {
                 var product = inventory[userId][i];
-                if (product.Id == id)
+                if (product.Id.ToString() == id)
                 {
                     inventory[userId].RemoveAt(i);
                     Console.WriteLine("Removed product with id: " + product.Id);
-                    eventStore.Add("DeleteProduct" + product.Id);
+                    eventStore.Add(new Event("DeleteProduct" + product.Id));
                     Ok(product);
                 }
             }

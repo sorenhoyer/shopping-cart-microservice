@@ -12951,11 +12951,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\backend\\shopping-cart-web-api\\backend.csproj",
+      "projectUniqueName": "C:\\code\\github\\shopping-cart-microservice\\shopping-cart-web-api\\backend.csproj",
       "projectName": "backend",
-      "projectPath": "C:\\code\\backend\\shopping-cart-web-api\\backend.csproj",
+      "projectPath": "C:\\code\\github\\shopping-cart-microservice\\shopping-cart-web-api\\backend.csproj",
       "packagesPath": "C:\\Users\\910182\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\backend\\shopping-cart-web-api\\obj\\",
+      "outputPath": "C:\\code\\github\\shopping-cart-microservice\\shopping-cart-web-api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

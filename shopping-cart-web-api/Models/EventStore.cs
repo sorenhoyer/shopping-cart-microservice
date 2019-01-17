@@ -7,11 +7,11 @@ namespace backend.Models
 {
     public class EventStore
     {
-        public static List<string> events = new List<string>();
+        public static List<Event> events = new List<Event>();
 
-        public List<string> getEvents(long firstEventSequenceNumber, long lastEventSequenceNumber)
+        public List<Event> getEvents(long firstEventSequenceNumber, long lastEventSequenceNumber)
         {
-            List<string> filteredEvents = new List<string>();
+            List<Event> filteredEvents = new List<Event>();
 
             for (int i = 0; i < events.Count; i++)
             {
@@ -24,7 +24,7 @@ namespace backend.Models
             return filteredEvents;
         }
 
-        public void Add(string ev)
+        public void Add(Event ev)
         {
             events.Add(ev);
         }
@@ -33,7 +33,7 @@ namespace backend.Models
         {
             for (int i = 0; i < events.Count; i++)
             {
-                if (events[i] == ev)
+                if (events[i].Id.ToString() == ev)
                 {
                     events.RemoveAt(i);
                     Console.WriteLine("Removed event: " + ev);

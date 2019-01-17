@@ -3474,11 +3474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\backend\\shopping-cart-client-console-app\\shopping-cart-client-console-app.csproj",
+      "projectUniqueName": "C:\\code\\github\\shopping-cart-microservice\\shopping-cart-client-console-app\\shopping-cart-client-console-app.csproj",
       "projectName": "shopping-cart-client-console-app",
-      "projectPath": "C:\\code\\backend\\shopping-cart-client-console-app\\shopping-cart-client-console-app.csproj",
+      "projectPath": "C:\\code\\github\\shopping-cart-microservice\\shopping-cart-client-console-app\\shopping-cart-client-console-app.csproj",
       "packagesPath": "C:\\Users\\910182\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\backend\\shopping-cart-client-console-app\\obj\\",
+      "outputPath": "C:\\code\\github\\shopping-cart-microservice\\shopping-cart-client-console-app\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

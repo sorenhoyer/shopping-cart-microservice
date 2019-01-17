@@ -1,14 +1,18 @@
-using System;
+﻿using System;
 
-namespace backend {
-    public class Product {
-        public Product(string name, double price) {
+namespace backend
+{
+    public class Event
+    {
+        public Event(string name, string type = "notification")
+        {
             this.Id = Guid.NewGuid();
             this.Name = name;
-            this.Price = price;
+            this.Type = type;
         }
 
-        public Guid Id {
+        public Guid Id
+        {
             get;
             set;
         }
@@ -19,7 +23,8 @@ namespace backend {
             set;
         }
 
-        public double Price {
+        public string Type
+        {
             get;
             set;
         }

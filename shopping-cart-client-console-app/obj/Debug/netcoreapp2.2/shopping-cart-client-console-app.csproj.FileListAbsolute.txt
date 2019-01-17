@@ -9,3 +9,14 @@ C:\code\backend\shopping-cart-client-console-app\bin\Debug\netcoreapp2.2\shoppin
 C:\code\backend\shopping-cart-client-console-app\bin\Debug\netcoreapp2.2\shopping-cart-client-console-app.pdb
 C:\code\backend\shopping-cart-client-console-app\obj\Debug\netcoreapp2.2\shopping-cart-client-console-app.dll
 C:\code\backend\shopping-cart-client-console-app\obj\Debug\netcoreapp2.2\shopping-cart-client-console-app.pdb
+C:\code\github\shopping-cart-microservice\shopping-cart-client-console-app\bin\Debug\netcoreapp2.2\shopping-cart-client-console-app.deps.json
+C:\code\github\shopping-cart-microservice\shopping-cart-client-console-app\bin\Debug\netcoreapp2.2\shopping-cart-client-console-app.runtimeconfig.json
+C:\code\github\shopping-cart-microservice\shopping-cart-client-console-app\bin\Debug\netcoreapp2.2\shopping-cart-client-console-app.runtimeconfig.dev.json
+C:\code\github\shopping-cart-microservice\shopping-cart-client-console-app\bin\Debug\netcoreapp2.2\shopping-cart-client-console-app.dll
+C:\code\github\shopping-cart-microservice\shopping-cart-client-console-app\bin\Debug\netcoreapp2.2\shopping-cart-client-console-app.pdb
+C:\code\github\shopping-cart-microservice\shopping-cart-client-console-app\obj\Debug\netcoreapp2.2\shopping-cart-client-console-app.csprojAssemblyReference.cache
+C:\code\github\shopping-cart-microservice\shopping-cart-client-console-app\obj\Debug\netcoreapp2.2\shopping-cart-client-console-app.csproj.CoreCompileInputs.cache
+C:\code\github\shopping-cart-microservice\shopping-cart-client-console-app\obj\Debug\netcoreapp2.2\shopping-cart-client-console-app.AssemblyInfoInputs.cache
+C:\code\github\shopping-cart-microservice\shopping-cart-client-console-app\obj\Debug\netcoreapp2.2\shopping-cart-client-console-app.AssemblyInfo.cs
+C:\code\github\shopping-cart-microservice\shopping-cart-client-console-app\obj\Debug\netcoreapp2.2\shopping-cart-client-console-app.dll
+C:\code\github\shopping-cart-microservice\shopping-cart-client-console-app\obj\Debug\netcoreapp2.2\shopping-cart-client-console-app.pdb
